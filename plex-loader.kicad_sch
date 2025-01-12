@@ -3837,6 +3837,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 30.48) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2258d419-498f-4130-bce9-42bf70a4459d")
+	)
+	(wire
+		(pts
 			(xy 220.98 104.14) (xy 195.58 104.14)
 		)
 		(stroke
@@ -3864,6 +3874,16 @@
 			(type default)
 		)
 		(uuid "28a11408-608a-4732-8ea3-e714ee83001f")
+	)
+	(wire
+		(pts
+			(xy 118.11 30.48) (xy 118.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29281979-b006-40f7-95a1-aec6a7fd0012")
 	)
 	(wire
 		(pts
@@ -4477,7 +4497,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 101.6 38.1)
+			(xy 101.6 30.48) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4774,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "e413d071-aa7d-490e-9b97-8ce4b5cc59bc")
+	)
+	(wire
+		(pts
+			(xy 110.49 30.48) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e512fe8b-367d-43d5-8407-0e3465dca789")
 	)
 	(wire
 		(pts
@@ -5274,6 +5304,28 @@
 		)
 		(uuid "583bc83e-4442-464b-9189-4dd967f122df")
 	)
+	(label "PGD6"
+		(at 110.49 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a4c554e-51a4-4da0-a5fb-186dc436d1fd")
+	)
+	(label "MCLR6"
+		(at 118.11 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a58c2a9-299a-436a-bb5d-cf84966d1267")
+	)
 	(label "GPIO27"
 		(at 210.82 71.12 180)
 		(fields_autoplaced yes)
@@ -5308,7 +5360,7 @@
 		(uuid "69a37e32-e3c1-482b-a7ca-34db6649a228")
 	)
 	(label "MCLR5"
-		(at 101.6 38.1 270)
+		(at 101.6 39.37 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5626,6 +5678,17 @@
 		)
 		(uuid "d754f472-fa17-49bd-8c19-8cd9d33f6886")
 	)
+	(label "PGC6"
+		(at 107.95 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e09dab1e-bbe0-4485-94e6-6ef56615a1f9")
+	)
 	(label "GPIO10"
 		(at 270.51 68.58 0)
 		(fields_autoplaced yes)
@@ -5914,7 +5977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
 			(at 96.52 25.4 0)
 			(effects
 				(font
@@ -6477,7 +6540,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 120.65 36.83 0)
+		(at 137.16 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6486,7 +6549,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c25532-1f69-44bc-aaed-0bd3c518d3fb")
 		(property "Reference" "J10"
-			(at 121.92 25.4 0)
+			(at 138.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6557,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 121.92 27.94 0)
+			(at 138.43 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6565,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 120.65 36.83 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 36.83 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6583,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 36.83 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
 			(at 80.01 25.4 0)
 			(effects
 				(font
@@ -6902,6 +6965,86 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
+		(at 113.03 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388e0a87-67fa-4335-8273-e250023d5633")
+		(property "Reference" "J6"
+			(at 111.7599 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 114.2999 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e286bf85-2d9f-4e63-8d1f-a5f1481c411c")
+		)
+		(pin "4"
+			(uuid "07b551a5-ad63-4035-8320-363deb08c5ea")
+		)
+		(pin "1"
+			(uuid "5a790fa1-a443-419d-baef-8261f4c1283d")
+		)
+		(pin "2"
+			(uuid "c0f86044-1998-4784-a283-2afe6866541a")
+		)
+		(pin "3"
+			(uuid "d92fb055-b24c-4002-918a-f4b67a2c2d77")
+		)
+		(instances
+			(project "plex-loader"
+				(path "/347fd5f2-11b0-457c-a5f0-e6d947a3628e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 46.99 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6929,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -7273,7 +7416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
 			(at 30.48 25.4 0)
 			(effects
 				(font
@@ -8290,7 +8433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal"
 			(at 63.5 25.4 0)
 			(effects
 				(font
