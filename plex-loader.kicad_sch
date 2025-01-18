@@ -5436,7 +5436,7 @@
 		)
 		(uuid "8f10bebc-056b-4070-a80f-9be51836ada2")
 	)
-	(label "PDG8"
+	(label "PGD8"
 		(at 97.79 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8362,7 +8362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 74.93 172.72 0)
 			(effects
 				(font
