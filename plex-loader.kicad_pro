@@ -52,7 +52,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|57532500|86600000|42ac559c-af9d-4d47-a886-a0e61a4b1f57|dbf60aac-aaeb-4c90-82d2-3d4ff9bf7df7",
+        "silk_overlap|57532500|86600000|deb99a0d-5f4b-49d5-b1dd-4bf5b1080b25|dbf60aac-aaeb-4c90-82d2-3d4ff9bf7df7"
+      ],
       "meta": {
         "version": 2
       },
