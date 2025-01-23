@@ -47,4 +47,3 @@ Label Guide
 | U1, U2, U3                     | TMUX1208PWR                |
 | U4                             | dsPIC33f          |
 | U5                             | MOSFET PNP            |
-💣
